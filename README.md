@@ -1,29 +1,28 @@
-# Udacity Project Webpack Express web App
+# Udacity Project Summary
 
-The goal of this repo is be an example of a basic but functional app built on Express and Webpack.
+The project is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. Using an exciting new api called [meaningcloud](https://www.quora.com), that you can check the valid link and if the link is not a natural link it will be alert with a message
 
-If you want to follow along, start from branch 0-initial-setup. Each branch in this project is a step along the path to creating a fully functional webpack setup. In each branch, there will be a documentation file that lists out the steps taken in that branch (each step is also roughly a git commit if you look at the history) which you can use as a checklist when setting up your own projects. 
+## The project also used:
 
-## What we will cover
+- Webpack
+- Sass styles
+- Webpack Loaders and Plugins
+- Service workers
 
-We will cover:
 
-- Webpack entry point
-- Webpack output and dist folder
-- Webpack Loaders
-- Webpack Plugins
-- Webpack Mode
-- Tools for convenient Webpack development
-
-## Get Up and Running
+## How to Set up the project
 
 Fork this repo, then clone the branch of your choice from your forked repo down to your computer:
 
 ```
-git clone -- git@github.com:[your-user-name]/webpack-express.git --
+git clone -- https://github.com/azakii/evaluate-news-article.git --
 ```
 
 `cd` into your new folder and run:
 - ```npm install```
-- ```npm start``` to start the app
-- this app runs on localhost:8080, but you can of course edit that in server.js
+- ```npm run dev``` to start the app and open on the browser
+- this app runs on localhost:8080, by normal
+- ```npm start``` to run the server of the app
+- this app runs on localhost:8081, but you can of course edit that in server.js
+- ```npm run test``` to run the Test mode of app
+- ```npm run prod``` to run the Dist
