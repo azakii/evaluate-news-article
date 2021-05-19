@@ -1,6 +1,6 @@
 # Udacity Project Summary
 
-The project is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. Using an exciting new api called [meaningcloud](https://www.quora.com), that you can check the valid link and if the link is not a natural link it will be alert with a message
+The project is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. Using an exciting new api called [meaningcloud](https://www.meaningcloud.com/), that you can check the valid link and if the link is not a natural link it will be alert with a message
 
 ## The project also used:
 
