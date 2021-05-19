@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static('dist'))
 app.get('/', function(req, res) {
-    res.sendFile('src/client/index.html')
+    res.sendFile('dist')
 })
 
 app.post('/api', async function(request, response) {
